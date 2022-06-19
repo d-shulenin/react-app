@@ -1,0 +1,16 @@
+.mainSection__rectangle {
+    height: 112px;
+    padding-top: 30px;
+    text-align: center;
+    background: #121212;
+    font-size: 16px;
+}
+
+.mainSection__rectangle h4 {
+    margin: 0 0 15px 0;
+    font-size: 36px;
+}
+  
+.mainSection__rectangle span {
+    opacity: 0.4;
+}

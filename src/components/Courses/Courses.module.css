@@ -1,0 +1,203 @@
+.courses {
+    background: url('./../../bgc.png');
+    padding-bottom: 200px;
+}
+
+.courses__wrapper {
+    width: 67.5vw;
+    margin: 150px auto 0 auto;
+}
+
+.topicHeader {
+    display: flex;
+    align-items: center;
+}
+
+.courses__quickStartHeaderLogo {
+    transform: rotate(45deg);
+    width: 90px;
+    height: 45px;
+}
+
+.topicHeader h1 {
+    margin-left: 20px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.courses__quickStartSubtitle {
+    margin-top: 30px;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: 160%;
+}
+
+.courses__quickStartContent {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 273px;
+}
+
+.quickStartBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quickStartBlock h2 {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.quickStartBlock p {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.5;
+    line-height: 160%;
+    width: 95%;
+}
+
+.quickStartBlock__rectangle100 {
+    width: 324px;
+    height: 80px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.quickStartBlock__rectangle75 {
+    width: 324px;
+    height: 60px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.quickStartBlock__rectangle50 {
+    width: 324px;
+    height: 30px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.quickStartBlock__rectangleSum {
+    width: 324px;
+    height: 10px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.courses__getJob {
+    margin-top: 200px;
+}
+
+.courses__getJob h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.courses__getJobContent {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.getJobBlock {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.getJobBlock img {
+    width: 150px;
+}
+
+.getJobBlock h3 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.getJobBlock p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 85%;
+    margin-top: 20px;
+}
+
+.courses__partners {
+    margin-top: 200px;
+}
+
+.courses__partnersHeaderLogo {
+    transform: rotate(-135deg);
+    margin-right: 25px;
+}
+
+.courses__partnersContent {
+    margin-top: 90px;
+}
+
+@media screen and (max-width: 1440px) {
+    .courses__quickStartSubtitle {
+        width: 40%;
+    }
+
+    .quickStartBlock__rectangle100 {
+        width: 254px;
+    }
+
+    .quickStartBlock__rectangle75 {
+        width: 254px;
+    }
+
+    .quickStartBlock__rectangle50 {
+        width: 254px;
+    }
+
+    .quickStartBlock__rectangleSum {
+        width: 254px;
+    }
+
+    .courses__partnersContent {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .courses__wrapper {
+        width: 75vw;
+    }
+
+    .courses__quickStartSubtitle {
+        width: 50%;
+    }
+
+    .quickStartBlock__rectangle100 {
+        width: 204px;
+    }
+
+    .quickStartBlock__rectangle75 {
+        width: 204px;
+    }
+
+    .quickStartBlock__rectangle50 {
+        width: 204px;
+    }
+
+    .quickStartBlock__rectangleSum {
+        width: 204px;
+    }
+
+    .courses__partnersContent {
+        width: 100%;
+    }
+}

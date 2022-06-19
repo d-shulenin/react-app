@@ -1,0 +1,124 @@
+.schedule {
+    background: url('./../../bgc.png');
+    color: white;
+    padding-bottom: 200px;
+}
+
+.schedule__wrapper {
+    margin: 180px auto 0 auto;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.schedule__logo {
+    transform: rotate(-180deg);
+}
+
+.schedule h1 {
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.schedule p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.schedule__content {
+    margin-top: 80px;
+    display: flex;
+}
+
+.schedule__leftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 677px;
+}
+
+.schedule__rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 475px;
+    margin-top: 100px;
+}
+
+.schedule__center {
+    width: 6px;
+    height: 677px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.scheduleBlock {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.scheduleBlock__leftDash {
+    float: right;
+    width: 40px;
+    height: 0px;
+    opacity: 0.3;
+    border: 1px solid #FFFFFF;
+    margin-left: 10px;
+}
+
+.scheduleBlock__rightDash {
+    float: left;
+    width: 40px;
+    height: 0px;
+    opacity: 0.3;
+    border: 1px solid #FFFFFF;
+    margin-right: 10px;
+}
+
+.scheduleBlock__leftText {
+    text-align: right;
+}
+
+.scheduleBlock__leftText h5 {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin: 20px 0 0 auto;
+}
+
+.scheduleBlock__leftText p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 1;
+    text-align: right;
+    width: 60%;
+    margin: 15px 0 0 auto; 
+}
+
+.scheduleBlock__rightText {
+    text-align: left;
+}
+
+.scheduleBlock__rightText h5 {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin: 20px auto 0 0;
+}
+
+.scheduleBlock__rightText p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 1;
+    text-align: left;
+    width: 60%;
+    margin: 15px auto 0 0; 
+}

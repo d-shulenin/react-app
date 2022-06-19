@@ -1,0 +1,92 @@
+  .footer {
+    height: 130px;
+    width: 83.75%;
+    background: #121212;
+    padding-left: 16.25%;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .button {
+    width: 183px;
+    height: 44px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    color: white; 
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    margin-right: 80px; 
+  }
+  
+  .button:hover {
+    background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  }
+  
+  .footer__statistics {
+    display: flex;
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    justify-content: space-between;
+  }
+
+  .footer__moneyStatistics {
+    margin-left: 100px;
+  }
+
+  .footer__moneyStatisticsLine {
+    display: flex;
+  }
+
+  .footer__moneyStatisticsLineRed {
+    width: 200px;
+    height: 6px;  
+    border-radius: 3px 0 0 3px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  }
+
+  .footer__moneyStatisticsLineWhite {
+    width: 300px;
+    height: 6px;  
+    border-radius: 0 3px 3px 0;
+    background: white;
+  }
+
+  .footer__moneyStatisticsDigits {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__moneyStatisticsDigits p{
+    margin-top: 5px;
+  }
+
+@media screen and (max-width: 1440px) {
+  .footer {
+    width: 90%;
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 95%;
+    padding-left: 5%;
+  }
+
+  .button {
+    margin-right: 40px;
+  }
+
+  .footer__moneyStatistics {
+    margin-left: 80px;
+  }
+
+  .footer__moneyStatisticsLineRed {
+    width: 100px;
+  }
+
+  .footer__moneyStatisticsLineWhite {
+    width: 250px;
+  }
+}

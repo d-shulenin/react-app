@@ -1,0 +1,71 @@
+.teachers {
+  background: url("./../../bgc.png");
+  padding-bottom: 230px;
+  color: white;
+}
+
+.teachers__wrapper {
+  width: 70%;
+  margin: 100px auto 0 auto;
+}
+
+.teachers__header {
+  display: flex;
+  align-items: center;
+}
+
+.teachers__headerLogo {
+  width: 90px;
+  height: 45px;
+}
+
+.teachers__header h1 {
+  font-size: 48px;
+  margin-left: 40px;
+}
+
+.teachers__content {
+  margin-top: 115px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.teachers__contentItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.biographyButton {
+  margin-top: 30px;
+  width: 168px;
+  height: 43px;
+  border-radius: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  transition: all 0.4s ease;
+}
+
+.biographyButton:hover {
+  width: 193px;
+  height: 49px;
+  font-size: 16px;
+}
+
+.teachers__photo {
+  width: 190px;
+}
+
+.teachers__contentItem h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.teachers__contentItem p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+}

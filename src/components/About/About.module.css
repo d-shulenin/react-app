@@ -1,0 +1,31 @@
+.about {
+    background: url('./../../bgc.png');
+    padding-bottom: 230px;
+}
+
+.aboutWrapper {
+    width: 67.7%;
+    margin: 200px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutImage {
+    width: 446px;
+}
+
+.aboutDiscr {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.aboutDiscr h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.aboutDiscr p {
+    font-size: 16px;
+    font-weight: 400;
+}
